@@ -1,16 +1,119 @@
-# React + Vite
+# Clothify 👕🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clothify is a simple React-based product browsing application built to practice and understand modern frontend concepts such as **React Router v6**, **Context API**, and **API data handling**.
 
-Currently, two official plugins are available:
+This project focuses on clean routing, global state management, and dynamic product detail pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+--------------------------------------------------
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://clothify-react-azure.vercel.app/
 
-## Expanding the ESLint configuration
+--------------------------------------------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Product listing page
+- Dynamic product detail page
+- Client-side routing with React Router v6
+- Global product data using Context API
+- API integration using Axios
+- Clean and minimal UI
+
+--------------------------------------------------
+
+## 🛠️ Tech Stack
+
+- React
+- React Router DOM (v6)
+- Context API
+- Axios
+- JavaScript (ES6+)
+- CSS
+
+--------------------------------------------------
+
+## 📁 Project Structure
+
+src/
+│
+├── Pages/
+│   ├── Home.jsx
+│   ├── Products.jsx
+│   └── ProductDetails.jsx
+│
+├── Context/
+│   └── ProductContext.jsx
+│
+├── App.jsx
+└── main.jsx
+
+--------------------------------------------------
+
+## 🧭 Routes Overview
+
+/                         → Home  
+/products                 → Products  
+/products/product/:id     → Product Details  
+
+--------------------------------------------------
+
+## ▶️ Getting Started
+
+1) Clone the repository
+```
+git clone https://github.com/dev-hamza03/clothify-react.git
+```
+
+3) Install dependencies
+```
+npm install
+```
+
+5) Run the development server
+```
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+--------------------------------------------------
+
+## 📸 Screenshot
+
+![Clothify Screenshot](./src/assets/images/screenshot.png)
+
+
+--------------------------------------------------
+
+## 🎯 Learning Objectives
+
+- Understand React Router and dynamic routes
+- Practice Context API for global state
+- Work with external APIs
+- Improve component structure and data flow
+- Build confidence with real-world React patterns
+
+--------------------------------------------------
+
+## 📌 Notes
+
+- This is a learning-focused project
+- Not intended for production use
+- UI kept simple to focus on core concepts
+
+--------------------------------------------------
+
+## 👨‍💻 Author
+
+Hamza Khan  
+Frontend Developer (Learning React ⚛️)  
+Consistency • Discipline • Growth
+
+--------------------------------------------------
+
+## ⭐ Feedback
+
+Suggestions and improvements are welcome.
+Learning never stops 🚀
